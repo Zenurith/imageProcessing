@@ -1,0 +1,42 @@
+# ============================================
+# Waste Segmentation Project - Dependencies
+# ============================================
+# Environment: Python 3.12, CUDA 12.4
+#
+# Setup:
+#   1. Install Python 3.12 from python.org
+#   2. Create venv:  py -3.12 -m venv venv
+#   3. Activate:     .\venv\Scripts\activate
+#   4. Install PyTorch first:
+#      pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   5. Then install the rest:
+#      pip install -r requirements.txt
+#   6. Register Jupyter kernel:
+#      python -m ipykernel install --user --name=waste-seg
+# ============================================
+
+# Deep Learning
+ultralytics>=8.3.0
+albumentations>=1.4.0
+
+# COCO tools
+pycocotools>=2.0.8
+
+# Data science
+scikit-learn>=1.5.0
+scikit-image>=0.24.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Computer Vision
+opencv-python>=4.10.0
+
+# Jupyter
+jupyter
+ipykernel
+ipywidgets
+
+# Utilities
+tqdm

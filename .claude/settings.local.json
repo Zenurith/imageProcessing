@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import torch; print\\('PyTorch:', torch.__version__\\); print\\('CUDA:', torch.cuda.is_available\\(\\)\\); print\\('GPU:', torch.cuda.get_device_name\\(0\\) if torch.cuda.is_available\\(\\) else 'None'\\)\")",
+      "Bash(py:*)",
+      "Bash(pip list:*)",
+      "Bash(wmic path:*)",
+      "Bash(powershell \"Get-WmiObject Win32_VideoController | Select-Object Name\")",
+      "Bash(nvidia-smi)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}
