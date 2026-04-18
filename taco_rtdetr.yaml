@@ -1,0 +1,15 @@
+names:
+- Bottle
+- Cigarette
+- Foam
+- Glass
+- Metal
+- Other
+- Paper
+- Plastic
+- Unlabeled
+nc: 9
+path: C:/Users/User/Desktop/Ipynb/archive/dataset_v2
+test: images/test
+train: images/train
+val: images/val

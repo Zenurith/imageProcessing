@@ -40,3 +40,6 @@ ipywidgets
 
 # Utilities
 tqdm
+
+# Web app
+streamlit>=1.35.0
